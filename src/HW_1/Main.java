@@ -9,8 +9,8 @@ public class Main {
         dog.name="Fox";
         dog.age=1;
         dog.poroda="Akita Inu";
-        System.out.println(dog.toString());
-//        System.out.println(dog.name+" "+dog.age+" "dog.poroda);
+        System.out.println(dog);
+
 
 
 Car car = new Car();
@@ -18,7 +18,7 @@ car.model = "Mersedes";
 car.volumeEngine = 1.0;
 car.power = 100;
 car.turbo = true;
-        System.out.println(car.toString());
+        System.out.println(car);
 
         String[] Autors = {"John Doe"};
         Book book = new Book();
@@ -35,7 +35,7 @@ car.turbo = true;
         posts.title = "sunt aut facere repellat provident occaecati excepturi optio reprehenderit";
         posts.body = "quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto";
 
-        System.out.println(posts.toString());
+        System.out.println(posts);
 
 
         Comments comments = new Comments();
@@ -44,7 +44,7 @@ car.turbo = true;
         comments.email = "Eliseo@gardner.biz";
         comments.name = "id labore ex et quam laborum";
         comments.body = "laudantium enim quasi est quidem magnam voluptate ipsam eos\\ntempora quo necessitatibus\\ndolor quam autem quasi\\nreiciendis et nam sapiente accusantium";
-        System.out.println(comments.toString());
+        System.out.println(comments);
 
 
             System.out.println("End");
