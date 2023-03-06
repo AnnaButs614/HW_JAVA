@@ -2,22 +2,22 @@ package HW_1;
 
 
 import java.sql.Array;
+import java.util.Arrays;
 
 public class Book {
      String title;
      int pages;
-     Array Authors;
+     String Authors[] = new String[1];
      String genre;
 
      public Book(){
 
      }
 
-    public Book(String title, int pages,
-                Array Authors, String genre) {
+    public Book(String title, int pages, String[] authors, String genre) {
         this.title = title;
         this.pages = pages;
-        this.Authors = Authors;
+        Authors = authors;
         this.genre = genre;
     }
 
@@ -27,7 +27,7 @@ public class Book {
         return "Book{" +
                 "title='" + title + '\'' +
                 ", pages=" + pages +
-                ", Authors=" + Authors +
+                ", Authors=" + Arrays.toString(Authors) +
                 ", genre='" + genre + '\'' +
                 '}';
     }

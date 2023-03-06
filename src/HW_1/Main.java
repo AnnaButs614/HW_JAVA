@@ -20,11 +20,13 @@ car.power = 100;
 car.turbo = true;
         System.out.println(car.toString());
 
+        String[] Autors = {"John Doe"};
         Book book = new Book();
         book.title = "Harry Potter";
         book.pages = 1200;
-        book.Authors = ["John Doe"];
+        book.Authors = Autors;
         book.genre = "Fantesy";
+        System.out.println(book);
 
 
         Posts posts = new Posts();
